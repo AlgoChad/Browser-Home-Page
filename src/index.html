@@ -56,6 +56,7 @@
         </div>
 
 
+
         <div id="search-container" style="margin-top: 5%;">
           <div id="search-input-container">
             <img src="https://assets.codepen.io/1468070/Google+G+Icon.png" alt="" />
@@ -210,7 +211,7 @@ window.addEventListener('load', function() {
     {
         var text=document.getElementById("search").value;
         var cleanQuery = text.replace(" ","+",text);
-        var url='https://www.bing.com/search?q='+cleanQuery;
+        var url='http://www.google.com/search?q='+cleanQuery;
     
         window.location.href=url;
     }
